@@ -22,7 +22,7 @@ div {
 .card {
     height: 200px;
     width: 200px;
-    transition: transform 2s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     /* cursor: pointer; */
     background-color: transparent;
