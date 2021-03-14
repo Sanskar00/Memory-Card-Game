@@ -77,15 +77,22 @@ function doSomething(e) {
             if (e.target.id == list[1]) {
                 if (a.className == b.className) {
                     list = [];
-                    a.remove();
-                    b.remove();
-                    c.remove();
-                    d.remove();
+               if (e.target.id == list[1]) {
+                if (a.className == b.className) {
+                    list = [];
+                    setTimeout(function() {
+                        a.remove();
+                        b.remove();
+                        c.remove();
+                        d.remove();
+                    }, 800);
                     flipArray = [];
                     count += 1;
                 } else {
                     element1.style.transform = "rotateY(0deg)";
-                    element2.style.transform = "rotateY(0deg)";
+                      setTimeout(function() {
+                        element2.style.transform = "rotateY(0deg)";
+                    }, 800)
                     list = [];
                     flipArray = [];
                     count += 1;
